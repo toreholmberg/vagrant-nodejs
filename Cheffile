@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+cookbook 'apt'
+
+cookbook 'build-essential'
+
+cookbook 'git', 
+  git: 'https://github.com/fnichol/chef-git.git'
+
+cookbook 'nodejs'
+
+cookbook 'mongodb',
+  git: 'https://github.com/edelight/chef-mongodb.git'

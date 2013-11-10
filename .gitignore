@@ -1,0 +1,9 @@
+.vagrant
+cookbooks/
+tmp
+
+app
+app/*
+
+.ruby-version
+.ruby-gemset
