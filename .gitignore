@@ -2,8 +2,8 @@
 cookbooks/
 tmp
 
-#app
-#app/*
+app
+app/*
 
 .ruby-version
 .ruby-gemset
